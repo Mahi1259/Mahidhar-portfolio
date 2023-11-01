@@ -13,8 +13,9 @@ export default function Home() {
         </SubHeading>
 
         <Heading dark className="text-center font-extrabold">
-          <SplitText text="Marieflor" />
-          <SplitText text="Bawanan" />
+          <SplitText text="Mahidhar" />
+          <SplitText text="Reddy" />
+          <SplitText text="Vaka" />
         </Heading>
 
         <p className="text-center md:whitespace-pre-line">
