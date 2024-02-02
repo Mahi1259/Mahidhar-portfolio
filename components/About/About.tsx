@@ -25,11 +25,11 @@ export default function About() {
           About
         </SubHeading>
 
-        <Heading size="sm" dark className="font-extrabold">
-        Dedicated software developer with hands-on experience in full-stack development, cloud computing, and CI/CD practices. 
-        Proficient in JavaScript and TypeScript, with a specialization in React for creating engaging user interfaces. Skilled in crafting inventive software solutions, tailoring them to meet both user requirements and technical complexities.
-         Well-versed in cloud computing, particularly AWS, and experienced in containerization with Docker, ensuring seamless deployment and scalability. Committed to continuous professional growth, 
-        I am eager to contribute my expertise to dynamic technology teams, driving innovation and achieving exceptional results.
+        <Heading size="sm" dark className="font-extrabold smaller-heading">
+          Dedicated software developer with hands-on experience in full-stack development, cloud computing, and CI/CD practices. 
+          Proficient in JavaScript and TypeScript, with a specialization in React for creating engaging user interfaces. Skilled in crafting inventive software solutions, tailoring them to meet both user requirements and technical complexities.
+          Well-versed in cloud computing, particularly AWS, and experienced in containerization with Docker, ensuring seamless deployment and scalability. Committed to continuous professional growth, 
+          I am eager to contribute my expertise to dynamic technology teams, driving innovation and achieving exceptional results.
         </Heading>
 
         <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
