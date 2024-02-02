@@ -15,11 +15,15 @@ export default function Writing() {
 
         <div>
           <Heading size="sm" dark className="font-extrabold">
-            <SplitText text="It's in the works!" />
+              <SplitText text="Checkout in my git repo" />
           </Heading>
-
-          <p>Check back soon.</p>
         </div>
+
+        <Heading size="sm" dark className="font-extrabold">
+          <a href="https://github.com/Mahi1259" target="_blank" rel="noopener noreferrer">
+          <SplitText text="Click me" />
+          </a>
+        </Heading>
 
         <p className="whitespace-pre-line text-xs font-bold">
           Meanwhile, this site is being built & designed with NextJS,

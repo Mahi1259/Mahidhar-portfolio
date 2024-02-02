@@ -25,28 +25,12 @@ export default function About() {
           About
         </SubHeading>
 
-        <Heading size="sm" dark className="font-extrabold smaller-heading">
-          Dedicated software developer with hands-on experience in full-stack development, cloud computing, and CI/CD practices. 
-          Proficient in JavaScript and TypeScript, with a specialization in React for creating engaging user interfaces. Skilled in crafting inventive software solutions, tailoring them to meet both user requirements and technical complexities.
-          Well-versed in cloud computing, particularly AWS, and experienced in containerization with Docker, ensuring seamless deployment and scalability. Committed to continuous professional growth, 
-          I am eager to contribute my expertise to dynamic technology teams, driving innovation and achieving exceptional results.
+        <Heading size="xs" dark className="font-extrabold">
+        Dedicated software developer with hands-on experience in full-stack development, cloud computing, and CI/CD practices. 
+        Proficient in JavaScript and TypeScript, with a specialization in React for creating engaging user interfaces. Skilled in crafting inventive software solutions, tailoring them to meet both user requirements and technical complexities.
+         Well-versed in cloud computing, particularly AWS, and experienced in containerization with Docker, ensuring seamless deployment and scalability. Committed to continuous professional growth, 
+        I am eager to contribute my expertise to dynamic technology teams, driving innovation and achieving exceptional results.
         </Heading>
-
-        <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
-          <p className="w-full whitespace-pre-line md:w-1/2">
-            {`I am a frontend-focused software engineer with  6+ years of professional development experience, holding a degree of BS Computer Science from the University of the Philippines.
-            \nI have been employed by leading tech companies and emerging amazing startup companies throughout my career thus far.`}
-          </p>
-
-          <div className="w-full md:w-1/2">
-            Currently, I am a Senior Software Engineer,{" "}
-            <span className="font-bold">focusing on the frontend</span>. On a
-            daily basis, I work with <MobileTechList />
-            <TechList /> among others, in building and maintaining web
-            applications and design systems —
-            <span className="font-bold">all built from the ground up</span>.
-          </div>
-        </div>
       </div>
       <Float config={about} />
     </SectionLayout>

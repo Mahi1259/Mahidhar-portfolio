@@ -17,12 +17,6 @@ export default function Home() {
           <SplitText text="Reddy" />
           <SplitText text="Vaka" />
         </Heading>
-
-        <p className="text-center md:whitespace-pre-line">
-          {`I am a frontend developer who loves to work on
-                the web. I am passionate about building simple
-                and elegant solutions to complex problems.`}
-        </p>
       </div>
       <Float config={home} />
     </SectionLayout>
